@@ -42,5 +42,8 @@
 			<p>Some text about your projects...</p>
 		</section>
 	</div>
+	<script>
+		alert("test");
+	</script>
 </body>
 </html>
