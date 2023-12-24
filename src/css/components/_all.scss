@@ -1,0 +1,43 @@
+body {
+  @apply font-inter text-black-1;
+}
+
+.badge {
+  @apply bg-blue-2 rounded-full py-1.5 px-2.5 font-[500] text-xs text-blue-1;
+}
+
+.card {
+  @apply bg-white text-center border border-blue-3 rounded-lg py-3;
+}
+
+.card-light {
+  @apply bg-white text-center rounded-lg py-3 px-4;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.marker-hh {
+  background-image: url('./../../assets/images/toronto-marker.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.calgary-pa-17 {
+  background-image: url('./../../assets/images/pa-17.png'); /* Replace with the URL of your image */
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.calgary-pa-21 {
+  background-image: url('./../../assets/images/pa-21.png'); /* Replace with the URL of your image */
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}

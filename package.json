@@ -1,0 +1,22 @@
+{
+  "name": "experiment-one",
+  "version": "1.0.0",
+  "description": "WVC NDP Experiment One",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i src/css/input.css -o assets/css/output.css",
+    "watch": "npm run build -- --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.0",
+    "preline": "^2.0.0",
+    "vue": "^3.2.36"
+  }
+}
