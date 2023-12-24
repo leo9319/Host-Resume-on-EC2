@@ -7,7 +7,7 @@
 <body>
 	<div class="container">
 		<header>
-			<h1><?php echo "Roxy Leonard Palma"; ?></h1>
+			<h1><?php echo "Roxy L Palma"; ?></h1>
 			<p>Web Developer</p>
 		</header>
 		<section>
