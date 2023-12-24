@@ -7,8 +7,8 @@
 <body>
 	<div class="container">
 		<header>
-			<h1><?php echo "Roxy Palma"; ?></h1>
-			<p>Websss Developer</p>
+			<h1>Roxy Palma</h1>
+			<p>Web Developer</p>
 		</header>
 		<section>
 			<h2>Summary</h2>
