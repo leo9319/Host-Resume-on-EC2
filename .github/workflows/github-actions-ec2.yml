@@ -22,7 +22,7 @@ jobs:
       - name: Setting environment variables..
         run: |
           echo "AWS_DEFAULT_REGION=ca-central-1" >> $GITHUB_ENV
-          echo "AWS_SG_NAME=Linux-SG" >> $GITHUB_ENV
+          echo "AWS_SG_NAME=CodeDeploy_SG" >> $GITHUB_ENV
 
       - name: Print AWS Configuration
         run: aws configure list
