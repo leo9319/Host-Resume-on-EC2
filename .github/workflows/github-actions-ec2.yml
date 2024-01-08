@@ -1,6 +1,6 @@
 name: Push-to-EC2
 
-# Trigger deployment only on push to main branchs
+# Trigger deployment only on push to main branchss
 on:
   push:
     branches:
@@ -35,8 +35,8 @@ jobs:
         run: |
           aws ec2 authorize-security-group-ingress --group-name ${{ env.AWS_SG_NAME }} --protocol tcp --port 22 --cidr ${{ steps.ip.outputs.ipv4 }}/32
           env:
-            AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-            AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+            AWS_ACCESS_KEY_ID: AKIAQCW4W26SKZ4U4BS7
+            AWS_SECRET_ACCESS_KEY: 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
             AWS_DEFAULT_REGION: ${{ env.AWS_DEFAULT_REGION }}
 
       - name: Deploy to Server 1
